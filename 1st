@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Intro</title>
+</head>
+
+<body>
+  <h1>반갑습니다!</h1>
+  <script src="p5.min.js"></script>
+  <script src="addons/p5.dom.js"></script>
+  <script>
+    function setup(){
+      createCanvas(200,100);
+      fill(0,255,0);
+      ellipse(40,40,60,60);
+      fill(0,0,0);
+      stroke(0,255.0);
+      strokeWeight(10);
+      rect(40,40,60,60);
+      textSize(12);
+
+
+    }
+  </script>
+</body>
+
+</html>
